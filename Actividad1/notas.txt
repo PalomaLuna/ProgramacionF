@@ -1,0 +1,5 @@
+mkdir (crear una carpeta o archivo)
+cd (ubicarte en una carpeta)
+emacs Notas.txt (crear notas)
+Guardar un documento C+x s
+Eliminar la ventana de información C+alt+x 1

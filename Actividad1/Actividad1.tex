@@ -1,0 +1,47 @@
+\documentclass{article}
+
+% set font encoding for PDFLaTeX or XeLaTeX
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\fi
+
+% used in maketitle
+\title {Actividad 1}
+\author {Paloma Luna Ibarra\\Departamento de Física\\ Universidad de Sonora}
+
+\date {31 de Agosto, 2017}
+
+% Enable SageTeX to run SageMath code right inside this LaTeX file.
+% documentation: http://mirrors.ctan.org/macros/latex/contrib/sagetex/sagetexpackage.pdf
+% \usepackage{sagetex}
+
+\begin{document}
+\maketitle
+\section{Introducción}
+
+\subsection{Primera subsección}
+Aquí va el texto
+
+\subsubsection{primera subsubsección}
+Aquí va el texto
+
+\section{Descripción del trabajo}
+
+\section{Comandos de Bash}
+\begin{verbatim}
+mkdir (crear una carpeta o archivo)
+cd (ubicarte en una carpeta)
+emacs Notas.txt (crear notas)
+Guardar un documento C+x s
+Eliminar la ventana de información C+alt+x 1
+\end{verbatim}
+\section{Notas}
+\begin{minipage}{2in}
+Me gustó mucho la clase, en general la materia.
+\end{minipage}
+\end{document}
